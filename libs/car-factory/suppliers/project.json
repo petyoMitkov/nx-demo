@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/car-factory/suppliers/src",
+  "prefix": "nx-demo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/car-factory/suppliers"],
+      "options": {
+        "jestConfig": "libs/car-factory/suppliers/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/car-factory/suppliers/**/*.ts",
+          "libs/car-factory/suppliers/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

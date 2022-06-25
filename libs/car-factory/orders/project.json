@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/car-factory/orders/src",
+  "prefix": "nx-demo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/car-factory/orders"],
+      "options": {
+        "jestConfig": "libs/car-factory/orders/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/car-factory/orders/**/*.ts",
+          "libs/car-factory/orders/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

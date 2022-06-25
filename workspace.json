@@ -2,9 +2,16 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "api": "libs/api",
     "car-configurator": "apps/car-configurator",
     "car-configurator-e2e": "apps/car-configurator-e2e",
+    "car-configurator-interior": "libs/car-configurator/interior",
+    "car-configurator-tires": "libs/car-configurator/tires",
     "car-factory": "apps/car-factory",
-    "car-factory-e2e": "apps/car-factory-e2e"
+    "car-factory-e2e": "apps/car-factory-e2e",
+    "car-factory-orders": "libs/car-factory/orders",
+    "car-factory-suppliers": "libs/car-factory/suppliers",
+    "ui": "libs/ui",
+    "utils": "libs/utils"
   }
 }

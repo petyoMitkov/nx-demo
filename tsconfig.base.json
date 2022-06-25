@@ -14,7 +14,21 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-demo/api": ["libs/api/src/index.ts"],
+      "@nx-demo/car-configurator/interior": [
+        "libs/car-configurator/interior/src/index.ts"
+      ],
+      "@nx-demo/car-configurator/tires": [
+        "libs/car-configurator/tires/src/index.ts"
+      ],
+      "@nx-demo/car-factory/orders": ["libs/car-factory/orders/src/index.ts"],
+      "@nx-demo/car-factory/suppliers": [
+        "libs/car-factory/suppliers/src/index.ts"
+      ],
+      "@nx-demo/ui": ["libs/ui/src/index.ts"],
+      "@nx-demo/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

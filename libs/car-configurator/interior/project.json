@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/car-configurator/interior/src",
+  "prefix": "nx-demo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/car-configurator/interior"],
+      "options": {
+        "jestConfig": "libs/car-configurator/interior/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/car-configurator/interior/**/*.ts",
+          "libs/car-configurator/interior/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

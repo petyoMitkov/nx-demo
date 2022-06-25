@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/car-configurator/tires/src",
+  "prefix": "nx-demo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/car-configurator/tires"],
+      "options": {
+        "jestConfig": "libs/car-configurator/tires/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/car-configurator/tires/**/*.ts",
+          "libs/car-configurator/tires/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
