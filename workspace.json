@@ -3,6 +3,8 @@
   "version": 2,
   "projects": {
     "car-configurator": "apps/car-configurator",
-    "car-configurator-e2e": "apps/car-configurator-e2e"
+    "car-configurator-e2e": "apps/car-configurator-e2e",
+    "car-factory": "apps/car-factory",
+    "car-factory-e2e": "apps/car-factory-e2e"
   }
 }

@@ -7,6 +7,7 @@
     "build": "nx build",
     "test": "nx test",
     "serve:car-configurator": "nx run car-configurator:serve:development",
+    "serve:car-factory": "nx run car-factory:serve:development",
     "postinstall": "ngcc --properties es2020 browser module main"
   },
   "private": true,
