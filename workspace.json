@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "car-configurator": "apps/car-configurator",
+    "car-configurator-e2e": "apps/car-configurator-e2e"
+  }
 }
