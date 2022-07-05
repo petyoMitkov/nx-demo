@@ -8,6 +8,9 @@
     "test": "nx test",
     "serve:car-configurator": "nx run car-configurator:serve:development",
     "serve:car-factory": "nx run car-factory:serve:development",
+    "nx:graph": "nx graph",
+    "test:car-configurator": "nx test car-configurator --watchAll",
+    "е2е:car-configurator": "nx run car-configurator-e2e:e2e --watch",
     "postinstall": "ngcc --properties es2020 browser module main"
   },
   "private": true,
